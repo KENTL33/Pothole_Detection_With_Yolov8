@@ -1,0 +1,6 @@
+ultralytics==8.3.234
+roboflow
+fastapi
+kaleido
+python-multipart
+uvicorn
