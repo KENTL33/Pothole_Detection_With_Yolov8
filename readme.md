@@ -51,7 +51,7 @@ Run the code with mentioned command below.
 
 <h2>Acknowledgements</h2>
 
-<p>This project uses YOLOv8 for object detection. Special thanks to the following resources:</p>
+<p>This project uses YOLOv8 for pothole detection. Special thanks to the following resources:</p>
 <ul>
   <li>
     <strong>Reference Code:</strong> 
