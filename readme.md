@@ -1,4 +1,4 @@
-# Pothole_Detection_With_Yolov8
+# pothole_detection_with_yolov8
 Real-time pothole detection using YOLOv8 trained on custom dataset.
 
 ## 🚀 Live Demo
@@ -14,12 +14,12 @@ You can access the YOLOv8 segmentation and tracking implementation via the Googl
 <h2>Clone the repository</h2>
 
 ```bash
-!git clone https://github.com/KENTL33/Pothole_Detection_With_Yolov8.git
+!git clone https://github.com/KENTL33/pothole_detection_with_yolov8.git
 ```
 <h2>Go to the cloned folder</h2>
 
 ```bash
-cd Pothole_Detection_With_Yolov8
+cd pothole_detection_with_yolov8
 ```
 <h2>Install the Dependencies</h2>
 
@@ -48,3 +48,17 @@ Run the code with mentioned command below.
 ```python
 !yolo task=detect mode=predict model={HOME}/runs/detect/train/weights/best.pt conf=0.25 source='/content/drive/MyDrive/demo.mp4'
 ```
+
+<h2>Acknowledgements</h2>
+
+<p>This project uses YOLOv8 for object detection. Special thanks to the following resources:</p>
+<ul>
+  <li>
+    <strong>Reference Code:</strong> 
+    <a href="https://github.com/mounishvatti/pothole_detection_yolov8/blob/main/PotholeDetectionUsingYOLO.ipynb">Pothole Detection using YOLOv8</a> by mounishvatti.
+  </li>
+  <li>
+    <strong>Dataset:</strong> 
+    <a href="https://universe.roboflow.com/hiteshram/object-detection-bounding-box-ftfs5/dataset/1">Roboflow Universe</a>
+  </li>
+</ul>
