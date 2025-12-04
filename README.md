@@ -1,6 +1,11 @@
 # Pothole_Detection_With_Yolov8
 Real-time pothole detection using YOLOv8 trained on custom dataset.
 
+## 🚀 Live Demo
+**Try the model instantly in your browser:**
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/KENTL33/pothole-detector)
+[**Click here to visit the Pothole Detector App**](https://huggingface.co/spaces/KENTL33/pothole-detector)
+
 ## Google Colab File 
 You can access the YOLOv8 segmentation and tracking implementation via the Google Colab link provided below.
 
@@ -19,13 +24,7 @@ cd Pothole_Detection_With_Yolov8
 <h2>Install the Dependencies</h2>
 
 ```bash
-!pip install ultralytics
-```
-```bash
-!pip install roboflow
-```
-```bash
-!pip install fastapi kaleido python_multipart uvicorn
+!pip install -r requirements.txt
 ```
 <h2>Importing YOLO and a roboflow workspace for Image Segmentation</h2>
 
