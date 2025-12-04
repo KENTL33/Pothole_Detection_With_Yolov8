@@ -9,12 +9,12 @@ You can access the YOLOv8 segmentation and tracking implementation via the Googl
 <h2>Clone the repository</h2>
 
 ```bash
-!git clone https://github.com/KENTL33/Pothole-Detection-with-YoloV8.git
+!git clone https://github.com/KENTL33/Pothole_Detection_With_Yolov8.git
 ```
 <h2>Go to the cloned folder</h2>
 
 ```bash
-cd Pothole-Detection-with-YoloV8
+cd Pothole_Detection_With_Yolov8
 ```
 <h2>Install the Dependencies</h2>
 
